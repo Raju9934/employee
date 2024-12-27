@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+function App()
+{
+  return(
+    <>
+    <h1>Enter Details of Employee</h1>
+    
+    <div style={{display:'flex'}}>
+    <div style={{color:'red',height:'200px', width:'400px',backgroundColor:'blue',border:'4px solid red',borderRadius:'1em'}}>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <label>Name of Employee</label>
+      <br></br>
+      <input type="text"></input>
+      <br></br>
+      <label>Age</label>
+      <br></br>
+      <input type="text"></input>
+      <br></br>
+      <label>Date of Joininig</label>
+      <br></br>
+      <input type="text"></input>
+      <br></br>
+      <label>Designation</label>
+      <br></br>
+      <input type="date"></input>
+
+</div>
+
+<div style={{height:'200px',width:'400px',backgroundColor:'red',marginLeft:'10px',border:'4px solid yellow',borderRadius:'1em'}}>
+
+</div>
     </div>
-  );
+   
+    </>
+  )
+  
 }
-
-export default App;
+export default App
